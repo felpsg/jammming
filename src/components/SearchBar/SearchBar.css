@@ -1,0 +1,64 @@
+.jammingTitle {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: -13rem;
+}
+
+.spanTitle {
+ color: greenyellow;
+}
+
+.SearchBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.SearchButton {
+    width: 80%;
+    font-size: 1.5em;
+    background-color: transparent;
+    color: white;
+    border: solid 1px greenyellow;
+    margin-top: 30px;
+    padding: 11px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.5s;
+    animation-duration: 0.5s;
+    font-weight: 500;
+}
+
+.SearchButton:hover {
+    border: solid 1px #fff;
+    transition: 0.5s;
+
+}
+
+.SearchButton:active {
+    animation-name: moveUpDown;
+}
+
+@keyframes moveUpDown {
+    0% {transform: translateY(0px);} 
+    50% {transform: translateY(-10px);}
+    100% {transform: translateY(0px);}
+}
+
+
+
+.input {
+    width: 150%;
+    font-size: 0.8em;
+    border: none;
+    margin-top: 10px;
+    padding: 30px;
+    font-style: italic;
+    border: solid 1px greenyellow;
+    font-size: 0.7em;
+}
+
+.input:focus {
+    outline: none;
+}
