@@ -46,8 +46,6 @@
     100% {transform: translateY(0px);}
 }
 
-
-
 .input {
     width: 150%;
     font-size: 0.8em;
@@ -55,10 +53,15 @@
     margin-top: 10px;
     padding: 30px;
     font-style: italic;
-    border: solid 1px greenyellow;
+    border: solid 1px #fff;
     font-size: 0.7em;
+}
+
+.input:hover {
+    border: solid 1px greenyellow;
 }
 
 .input:focus {
     outline: none;
 }
+
